@@ -206,15 +206,15 @@
 			function onSelectStart(e) { }
 
 			function onSelectEnd(e) {
-				if(e.data.handedness == "left"){
-					envOrder--;
-					if(envOrder < 0) envOrder = envTextures.length - 1;
-					setEnv(envOrder);
-				}if(e.data.handedness == "right"){
-					envOrder++;
-					if(envOrder > envTextures.length - 1) envOrder = 0;
-					setEnv(envOrder);
-				}
+				// if(e.data.handedness == "left"){
+				// 	envOrder--;
+				// 	if(envOrder < 0) envOrder = envTextures.length - 1;
+				// 	setEnv(envOrder);
+				// }if(e.data.handedness == "right"){
+				// 	envOrder++;
+				// 	if(envOrder > envTextures.length - 1) envOrder = 0;
+				// 	setEnv(envOrder);
+				// }
 			}
 
 			$(window).keydown(function(e) {
